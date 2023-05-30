@@ -9,6 +9,7 @@ body{
     padding: 50px;
     margin-top: 50px;
     display: flex;
+    display: none;
 }
 
 .card{
@@ -29,11 +30,13 @@ h1{
     margin-bottom: 50px;
 }
 
-input{
+ 
+input:not([type="radio"]){
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
     padding: 15px;
     margin-bottom: 20px;
+    width: 400px;
 }
 
 button{
